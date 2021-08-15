@@ -15,7 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@itinerary/api-interfaces": ["libs/api-interfaces/src/index.ts"]
+      "@itinerary/api-interfaces": ["libs/api-interfaces/src/index.ts"],
+      "@itinerary/core-data": ["libs/core-data/src/index.ts"],
+      "@itinerary/material": ["libs/material/src/index.ts"],
+      "@itinerary/ui-login": ["libs/ui-login/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

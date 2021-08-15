@@ -1,0 +1,11 @@
+{
+  "itineraries": [
+    {
+      "id": 1,
+      "name": "Build an App",
+      "date": "December 25 2012",
+      "description": "Build an app for Santa Claus",
+      "completed": false
+    }
+  ]
+}

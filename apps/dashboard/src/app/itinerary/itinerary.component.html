@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="col-50" layout="row" layout-align="center center">
+    <itinerary-itinerary-list
+  [itineraries]="itineraries$ | async"
+  (selected)="selectItinerary($event)"
+  (deleted)="deleteItinerary($event)"
+  ></itinerary-itinerary-list>
+  </div>
+<div class="col-50" layout="row" layout-align="center center">
+  <itinerary-itinerary-details
+  [itinerary]="selectedItinerary"
+  (saved)="saveItinerary($event)"
+  (cancelled)="cancel()"
+  ></itinerary-itinerary-details>
+  </div>
+</div>
